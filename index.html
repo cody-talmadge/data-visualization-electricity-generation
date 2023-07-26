@@ -1,0 +1,27 @@
+<html>
+    <script src="d3.v7.js"></script>
+    <script src="./d3-annotation.js"></script>
+    <script src="data_visualization.js"></script>
+    <link rel="stylesheet" href="index.css"></script>
+    <head>
+        <title>Electricity Generation in the United States (2001 to 2021)</title>
+    </head>
+    <body>
+        <div class="data-viz">
+            <h1 class="title">Electricity Generation in the United States (2001 to 2021)</h1>
+            <div class="slide-controls">
+                <button onclick="decreaseSlide()" class="inc-dec">Previous</button>
+                <button onclick="changeDisplay(0)" class="current-slide slide-0">1</button>
+                <button onclick="changeDisplay(1)" class="slide-1">2</button>
+                <button onclick="changeDisplay(2)" class="slide-2">3</button>
+                <button onclick="changeDisplay(3)" class="slide-3">4</button>
+                <button onclick="changeDisplay(4)" class="slide-4">5</button>
+                <button onclick="increaseSlide()" class="inc-dec">Next</button>
+            </div>
+            <svg class="chart" width="1100" height="550"></svg>
+            <div id="slide-text"></div>
+        </div>
+        <div id="tooltip">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+.current-slide {
+    background: none;
+    border: none;
+}
+
+button {
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.slide-controls {
+    margin: auto;
+    z-index: 1;
+}
+
+.data-viz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inc-dec {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+#slide-text {
+    font-family: sans-serif;
+    width: 1100px;
+    transform: translate(0px, -50px);
+}
+
+#tooltip {
+    position: absolute;
+    visibility: hidden;
+    padding: 5px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.annotations {
+    font-family: sans-serif !important;
+}
+
+.x-label, .y-label {
+    font-size: 10pt;
+    font-family: sans-serif;
+}
+
+svg {
+    transform: translate(0px, -50px);
+}
